@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333333;
+    color: #FCFAF9;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    padding: 50px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-caption{
+    padding: 15px;
+}
+
+section{
+    padding: 10px 0;
+}
+
+section a{
+    color: #48E5C2;
+    text-decoration: none;
+}
+
+section > a:hover{
+    font-weight: bold;
+}
